@@ -82,9 +82,10 @@
 
  .home-img img{
     width:35vw ;
-    animation: floatImage 4s ease-in-out infinite;
+    margin-left: 4rem;
+    /* animation: floatImage 1s ease-in-out infinite; */
  }
-
+/* 
  @keyframes floatImage{
    0%{
       transform: translateY(0);
@@ -97,7 +98,7 @@
       transform: translateY(0);
    }
 
- }
+ } */
 
  .home-content h3 {
     font-size: 3.2rem;
@@ -160,7 +161,9 @@
     align-items: center;
     gap: 2rem;
     background: var(--second-bg-color);
- }
+    /* border: 2px solid white; */
+   }
+  
  .about-img img{
     width: 26rem;
     height: 45rem;
@@ -171,7 +174,10 @@
     text-align: center;
     font-size: 4.5rem;
  }
-
+.about-content{
+   /* border: 3px solid blue; */
+   width: 80%;
+}
  .about-content h2{
     text-align: left;
     line-height: 1.2;
@@ -290,6 +296,16 @@
    color: var(--second-bg-color);
 }
 
+.icons-btn{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+}
+.icons-btn a{
+   margin: 1rem;
+
+}
 .contact h2{
    margin-bottom: 3rem;
 }
